@@ -4,7 +4,7 @@ import aboutimage from "../assets/aboutimage.jpg"; // adjust the path if needed
 const About = () => {
   return (
     <>
-      <div className="bg-custom-gray text-white p-10">
+      <div className="bg-custom-gray text-white p-10 h-screen">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <img
             src={aboutimage}

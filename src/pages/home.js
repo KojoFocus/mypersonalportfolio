@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Navbar />
 
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center h-screen pt-20">
         <img
           src={background}
           className="absolute w-full h-full object-cover"
@@ -34,9 +34,9 @@ const Home = () => {
           <h1 className="text-4xl text-white md:text-6xl text-center mt-4">Hello,</h1>
           <br></br>
           <p
-            className="text-lg text-white mb-4 px-4 md:px-0"
+            className="text-lg text-white mb-4 variant-6 px-4 md:px-0"
           >
-            I am Ernest, a web developer. Don't worry; click on my forehead to
+            I am Ernest, a web developer. Don't worry if you are busy; click on my forehead to
             quickly get to know me. 🌟
           </p>
         </div>

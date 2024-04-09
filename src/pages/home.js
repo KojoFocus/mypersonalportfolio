@@ -25,7 +25,7 @@ const Home = () => {
           <img
             src={pp}
             alt="Profile"
-            className="relative rounded-full w-64 md:w-96 h-64 md:h-96 mx-auto my-4"
+            className=" rounded-full w-64 md:w-96 h-64 md:h-96 mx-auto my-4"
             style={{ objectFit: "contain", zIndex: 1 }}
           />
         </Link>
